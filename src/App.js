@@ -1,6 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Button from "./Components/Button/Button";
+import Icon from "./Components/Icon/Icon";
 
 function App() {
   return (
@@ -17,15 +17,13 @@ function App() {
       <br/>
       <br/>
       <Button
-        id="2"
         type="button"
         color="yellow"
         width={80}
         height={40}
         onClick={() => alert("hello")}
       >
-        {" "}
-        Btn custom 1{" "}
+        <Icon width={30} height={30} />
       </Button>
       <br/>
       <br/>
